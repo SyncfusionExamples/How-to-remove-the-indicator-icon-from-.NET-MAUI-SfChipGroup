@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chip="clr-namespace:Syncfusion.Maui.Core;assembly=Syncfusion.Maui.Core"
+             xmlns:local="clr-namespace:ChipGroup_GettingStarted"
+             x:Class="ChipGroup_GettingStarted.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout  HorizontalOptions="Center" Margin="5,0,5,0" VerticalOptions="Center">
+        <chip:SfChipGroup x:Name="chipGroup"
+                          ChipType="Filter"
+                          ItemsSource="{Binding Languages}"
+                          SelectionChanged="OnSelectionChanged">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="ChipTextColor" Value="Black" />
+                            <Setter Property="ChipBackground" Value="White" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter Property="ChipTextColor" Value="White" />
+                            <Setter Property="ChipBackground" Value="#512dcd" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+            <chip:SfChipGroup.ItemTemplate>
+                <DataTemplate>
+                    <chip:SfChip Text="{Binding Name}"
+                                 InputTransparent="True"
+                                 BackgroundColor="Transparent">
+                        <chip:SfChip.Triggers>
+                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsChecked}" Value="True">
+                                <Setter Property="TextColor" Value="White"/>
+                            </DataTrigger>
+                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsChecked}" Value="False">
+                                <Setter Property="TextColor" Value="Red"/>
+                            </DataTrigger>
+                        </chip:SfChip.Triggers>
+                    </chip:SfChip>
+                </DataTemplate>
+            </chip:SfChipGroup.ItemTemplate>
+        </chip:SfChipGroup>
+    </VerticalStackLayout>
+
+</ContentPage>
