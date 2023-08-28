@@ -15,12 +15,12 @@ public partial class MainPage : ContentPage
     {
         if (e.AddedItem != null)
         {
-            (e.AddedItem as Language).IsChecked = true;
+            (e.AddedItem as Language).IsSelected = true;
         }
 
         if (e.RemovedItem != null)
         {
-            (e.RemovedItem as Language).IsChecked = false;
+            (e.RemovedItem as Language).IsSelected = false;
         }
     }
 

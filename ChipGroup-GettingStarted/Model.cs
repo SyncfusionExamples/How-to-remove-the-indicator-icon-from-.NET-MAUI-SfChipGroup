@@ -15,17 +15,17 @@ namespace ChipGroup_GettingStarted
             set;
         }
 
-        private bool isChecked = false;
+        private bool isSelected = false;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public bool IsChecked
+        public bool IsSelected
         {
-            get { return isChecked; }
+            get { return isSelected; }
             set
             {
-                isChecked = value;
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("IsChecked"));
+                isSelected = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("IsSelected"));
             }
         }
     }
