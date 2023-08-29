@@ -18,13 +18,11 @@
                 <VisualStateGroup x:Name="CommonStates">
                     <VisualState x:Name="Normal">
                         <VisualState.Setters>
-                            <Setter Property="ChipTextColor" Value="Black" />
                             <Setter Property="ChipBackground" Value="White" />
                         </VisualState.Setters>
                     </VisualState>
                     <VisualState x:Name="Selected">
                         <VisualState.Setters>
-                            <Setter Property="ChipTextColor" Value="White" />
                             <Setter Property="ChipBackground" Value="#512dcd" />
                         </VisualState.Setters>
                     </VisualState>
@@ -36,10 +34,10 @@
                                  InputTransparent="True"
                                  BackgroundColor="Transparent">
                         <chip:SfChip.Triggers>
-                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsChecked}" Value="True">
+                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsSelected}" Value="True">
                                 <Setter Property="TextColor" Value="White"/>
                             </DataTrigger>
-                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsChecked}" Value="False">
+                            <DataTrigger TargetType="chip:SfChip" Binding="{Binding IsSelected}" Value="False">
                                 <Setter Property="TextColor" Value="Red"/>
                             </DataTrigger>
                         </chip:SfChip.Triggers>
