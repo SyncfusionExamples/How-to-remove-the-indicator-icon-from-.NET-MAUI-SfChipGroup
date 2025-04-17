@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\April2025\\Examples\\Chip\\ChipGroupGettingStarted\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2A66C2-8309-488E-8FB7-78725D1D058A}|ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj|d:\\april2025\\examples\\chip\\chipgroupgettingstarted\\chipgroup-gettingstarted\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB2A66C2-8309-488E-8FB7-78725D1D058A}|ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj|solutionrelative:chipgroup-gettingstarted\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB2A66C2-8309-488E-8FB7-78725D1D058A}|ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj|d:\\april2025\\examples\\chip\\chipgroupgettingstarted\\chipgroup-gettingstarted\\chipgroup-gettingstarted.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB2A66C2-8309-488E-8FB7-78725D1D058A}|ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj|solutionrelative:chipgroup-gettingstarted\\chipgroup-gettingstarted.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\April2025\\Examples\\Chip\\ChipGroupGettingStarted\\ChipGroup-GettingStarted\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ChipGroup-GettingStarted\\MainPage.xaml",
+              "ToolTip": "D:\\April2025\\Examples\\Chip\\ChipGroupGettingStarted\\ChipGroup-GettingStarted\\MainPage.xaml",
+              "RelativeToolTip": "ChipGroup-GettingStarted\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-17T12:50:29.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChipGroup-GettingStarted.csproj",
+              "DocumentMoniker": "D:\\April2025\\Examples\\Chip\\ChipGroupGettingStarted\\ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj",
+              "RelativeDocumentMoniker": "ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj",
+              "ToolTip": "D:\\April2025\\Examples\\Chip\\ChipGroupGettingStarted\\ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj",
+              "RelativeToolTip": "ChipGroup-GettingStarted\\ChipGroup-GettingStarted.csproj",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T12:37:30.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
