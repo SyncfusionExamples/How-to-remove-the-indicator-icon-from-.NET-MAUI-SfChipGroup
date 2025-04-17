@@ -1,1 +1,0 @@
-D:\April2025\Examples\Chip\ChipGroupGettingStarted\ChipGroup-GettingStarted\ChipGroup-GettingStarted.csproj;x64
